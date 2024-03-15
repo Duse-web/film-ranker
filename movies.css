@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+}
+#header{
+    justify-content: space-between;
+    background-image: url(covers/bck.png);
+}
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(184, 233, 156);
+    color: white;
+}
+img{
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 10%;
+}
+.navbar{
+    display: flex;
+                justify-content: center;
+                left: 30%;
+                top: 0px;
+                background: rgb(34, 4, 4);
+                position: fixed;
+                width: 50%S;
+}
+
+nav ul li{
+    list-style: none;
+   display: inline-block;
+   padding: 10px 7px;
+  
+}
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+   padding: 5px 1px;
+   justify-content: space-between;
+}
+button{
+    border: 3px solid rgb(238, 191, 191);
+    padding: 5px;
+    border-radius: 6px;
+    padding-right: 10px;
+    padding-left: 10px;
+    background-color: rgb(250, 11, 11);
+    font-weight: 700;
+    
+}
+.main-content{
+    display: flex;
+    justify-content: center;
+}
+article{
+    width: 70%;
+}
+h1{
+    padding: 50px;
+    text-align: right;
+    font-size: 80px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 15px;
+    text-decoration: underline;
+}
+p2{
+    font-size: xx-large;
+    background-color: black;
+    color: deeppink;
+}
+p4{
+    font-size: xx-large;
+    background-color: black;
+    color: gold;
+}
+p5{
+    color: black;
+}
+#now{
+    align-items: center;
+    padding: 50px;
+}
+.movie-links{
+    list-style: none;
+}
+ul li a{
+    text-decoration: none;
+    font-size: 25px; 
+}
+.fa{
+    padding: 20px;
+    font-size: 10px;
+    text-align: center;
+
+}
+.fa-facebook{
+    background: #3b5998;
+    color: white;
+}
+.fa-twitter{
+    background: #55acee;
+    color: white;
+}
+.fa-instagram{
+    background-color: #f30d0d;
+    color: white;
+}
+.fa-skype{
+    background: #00aff0;
+    color: white;
+}
